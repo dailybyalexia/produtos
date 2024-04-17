@@ -1,0 +1,279 @@
+@font-face {
+    font-family: "lovegood";
+    src: url("fonts/Lovegood.ttf") format("truetype");
+}
+@font-face {
+    font-family: "recoleta";
+    src: url("fonts/Recoleta-RegularDEMO.otf") format("truetype");
+} 
+body{ 
+    color : #2a9d8f;
+    background-color: #f8f5e2;
+    font-family: "lovegood";
+}
+img[id="bolha"]{
+    position: absolute;
+    width: 50vh;    
+    height: 50vh;
+    left: -4vh;
+    top: -7vh;
+    opacity: 60%;
+}
+h1{
+    position: absolute;
+    font-size: 3.5vh;
+    left: 11.5vh;
+    top: 7.9vh;
+    text-shadow: 1px 1px 4px rgb(255, 255, 255);
+    font-weight: bold;   
+    font-family: "lovegood";
+}
+img[id="imgcuticula"]{
+    position: absolute;
+    border: 10vh;
+    border-color: black;
+    width: 13vh;
+    height: 13vh;
+    top: 55vh;
+    left: 9vh;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+img[id="moldcuti"]{
+    position: absolute;
+    width: 30vh;
+    height: 30vh;
+    top: 50vh;
+    left: 1vh;
+    z-index: 3;
+}
+
+a[id="cuticula"] {
+    position: absolute;
+    font-size: 2.3vh;
+    top: 70vh;
+    left: 9vh;
+    text-decoration: none;
+    color: #2a9d8f;
+    font-family:"recoleta";
+    z-index: 5;
+    text-decoration: underline;
+    font-weight: bold;
+}
+img[id="clickcuticula"]{
+    position: absolute;
+    width: 4vh;
+    height: 4vh;
+    top: 73vh;
+    left: 21.5vh;
+    z-index: 6;
+    
+}
+img[id="imgcrescimento"]{
+    position: absolute;
+    border: 10vh;
+    border-color: black;
+    width: 13vh;
+    height: 13vh;
+    top: 55vh;
+    left: 45vh;
+    border-radius: 50%;
+    z-index: 2;
+}
+img[id="moldcresci"]{
+    position: absolute;
+    width: 30vh;
+    height: 30vh;
+    top: 50vh;
+    left: 36.5vh;
+    z-index: 3; 
+}
+a[id="linkcrescimento"] {
+    position: absolute;
+    font-size: 2.3vh;
+    top: 70vh;
+    left: 44vh;
+    text-decoration: none;
+    color: #2a9d8f;
+    font-family:"recoleta";
+    z-index: 5;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+img[id="clickcresci"]{
+    position: absolute;
+    width: 3.5vh;
+    height: 3.5vh;
+    top: 72vh;
+    left: 59vh;
+    z-index: 3; 
+}
+
+img[id="moldurablushcreme"]{
+    position: absolute;
+    top: 85vh;
+    width: 30vh;
+    height: 30vh;
+    left:1vh;
+}
+img[id="imgblush"]{
+    position: absolute;
+    border: 10vh;
+    border-color: black;
+    width: 13vh;
+    height: 13vh;
+    border-radius: 50%;
+    top: 90vh;
+    left: 9vh;
+}
+a[id="linkblush"]{
+    position: absolute;
+    font-size: 2.3vh;
+    top: 105vh;
+    left: 9vh;
+    text-decoration: none;
+    color: #2a9d8f;
+    font-family:"recoleta";
+    z-index: 5;
+    text-decoration: underline;
+    font-weight: bold;
+}
+img[id="clickblush"]{
+    position: absolute;
+    width: 3.5vh;
+    height: 3.5vh;
+    top: 108vh;
+    left: 15vh;
+    z-index: 3; 
+}
+img[id="moldurasticki"]{
+    position: absolute;
+    top: 85vh;
+    width: 30vh;
+    height: 30vh;
+    left:36.5vh;
+}
+img[id="imgsticki"]{
+    position: absolute;
+    border: 10vh;
+    border-color: black;
+    width: 13vh;
+    height: 13vh;
+    border-radius: 50%;
+    top:90vh;
+    left: 45vh;
+}
+a[id="linksticki"]{
+    position: absolute;
+    font-size: 2.3vh;
+    top: 105vh;
+    left: 44vh;
+    text-decoration: none;
+    color: #2a9d8f;
+    font-family:"recoleta";
+    z-index: 5;
+    text-decoration: underline;
+    font-weight: bold;
+}
+img[id="clicksticki"]{
+    position: absolute;
+    width: 3.5vh;
+    height: 3.5vh;
+    top: 108vh;
+    left: 54vh;
+    z-index: 3; 
+}
+img[id="moldurastickc"]{
+    position: absolute;
+    top: 120vh;
+    width: 30vh;
+    height: 30vh;
+    left:1vh;
+}
+img[id="imgstickc"]{
+    position: absolute;
+    border: 10vh;
+    border-color: black;
+    width: 13vh;
+    height: 13vh;
+    border-radius: 50%;
+    top:125vh;
+    left: 9vh;
+}
+a[id="linkstickc"]{
+    position: absolute;
+    font-size: 2.3vh;
+    top: 140vh;
+    left: 9vh;
+    text-decoration: none;
+    color: #2a9d8f;
+    font-family:"recoleta";
+    z-index: 5;
+    text-decoration: underline;
+    font-weight: bold;
+}
+img[id="clickstickc"]{
+    position: absolute;
+    width: 3.5vh;
+    height: 3.5vh;
+    top: 142vh;
+    left: 18vh;
+    z-index: 3; 
+}
+  
+h2[id="Tituloace"]{
+    position: absolute;
+    top: 160vh;
+    left: 5vh;
+    font-size: 10vh;
+    font-family: "lovegood";
+}   
+
+img[id="molduracolar"]{
+    position: absolute;
+    top: 185vh;
+    width: 30vh;
+    height: 30vh;
+    left:1vh;
+}
+img[id="imgcolar"]{
+    position: absolute;
+    border: 10vh;
+    border-color: black;
+    width: 13vh;
+    height: 13vh;
+    border-radius: 50%;
+    top:190vh;
+    left: 9vh;
+}
+img[id="clickcolar"]{
+    position: absolute;
+    width: 3.5vh;
+    height: 3.5vh;
+    top: 205.5vh;
+    left: 21vh;
+    z-index: 3; 
+}
+a[id="linkcolar"]{
+    position: absolute;
+    font-size: 2.6vh;
+    top: 205vh;
+    left: 9vh;
+    text-decoration: none;
+    color: #2a9d8f;
+    font-family:"recoleta";
+    z-index: 5;
+    text-decoration: underline;
+    font-weight: bold;
+}
+h3{
+    position: absolute;
+    font-size: 1.2vh;
+    font-family: "recoleta";
+    top: 207vh;
+    left: 11.5vh;
+
+}
